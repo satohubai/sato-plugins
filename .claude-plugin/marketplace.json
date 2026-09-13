@@ -1,0 +1,39 @@
+{
+  "name": "sato-plugins",
+  "owner": {
+    "name": "Sato Hub",
+    "url": "https://satohub.ai"
+  },
+  "description": "Sato Hub plugins for Claude Code — the scored, daily-rebuilt index of onchain-agent tooling, its agent-economy numbers, Preflight checks and Sato Route venue picks.",
+  "plugins": [
+    {
+      "name": "sato-hub",
+      "source": {
+        "source": "github",
+        "repo": "satohubai/sato-hub-skill"
+      },
+      "displayName": "Sato Hub",
+      "description": "Query Sato Hub — the scored, daily-rebuilt index of onchain-agent tooling (frameworks, MCP servers, wallets, x402, ERC-8004, agent skills), agent-economy numbers and Agent Passports — plus Preflight checks before you install, connect, pay or trade, and Sato Route venue picks with the fee disclosed. Bundles the hosted MCP server and the Sato Hub skill. Read-only, keyless, non-custodial.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Sato Hub",
+        "url": "https://satohub.ai"
+      },
+      "homepage": "https://satohub.ai/mcp",
+      "repository": "https://github.com/satohubai/sato-hub-skill",
+      "license": "MIT",
+      "category": "web3",
+      "keywords": [
+        "onchain agents",
+        "crypto agents",
+        "mcp",
+        "x402",
+        "erc-8004",
+        "wallets",
+        "sato score",
+        "agent economy",
+        "web3"
+      ]
+    }
+  ]
+}
