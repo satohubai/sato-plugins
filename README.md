@@ -3,6 +3,29 @@
 A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)
 published by [Sato Hub](https://satohub.ai) — the agent builder hub for crypto.
 
+## Install it in one line
+
+```sh
+claude mcp add --transport http satohub https://satohub.ai/api/mcp   # Claude Code
+codex mcp add satohub --url https://satohub.ai/api/mcp               # Codex CLI
+gemini mcp add --transport http satohub https://satohub.ai/api/mcp   # Gemini CLI
+```
+
+One click for [VS Code](https://vscode.dev/redirect/mcp/install?name=satohub&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fsatohub.ai%2Fapi%2Fmcp%22%7D)
+or [VS Code Insiders](https://insiders.vscode.dev/redirect/mcp/install?name=satohub&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fsatohub.ai%2Fapi%2Fmcp%22%7D&quality=insiders).
+
+**Cursor, Windsurf, Zed, Cline, Continue, JetBrains, LM Studio, Goose, Warp,
+Claude Desktop** — deep links and the exact config block for each, generated
+from one endpoint constant: **<https://satohub.ai/install>**
+(machine-readable at [`/api/install.json`](https://satohub.ai/api/install.json)).
+GitHub strips `cursor://` and `lmstudio://` links from READMEs, which is why the
+one-click buttons live on that page rather than here.
+
+Then drop in the [agent kit](https://satohub.ai/kit) — `AGENTS.md`,
+`CLAUDE.md`, `.cursor/rules/satohub.mdc`, `.windsurfrules` — so the model
+reaches for the server instead of answering from memory. Copies in
+[`kit/`](./kit).
+
 ## Install
 
 ```sh
